@@ -1,0 +1,159 @@
+
+/* ............grneral........ */
+.sec-1{
+    margin-top: 10rem;
+}
+
+
+body{
+    min-width: min-content; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    margin: 0 auto;
+    background-color: rgb(5, 3, 3)!important;
+    box-sizing: none;
+}
+
+
+
+.text-orange{
+    color: #fe4803;
+}
+
+/* ........elements will hover.... */
+
+
+.devl{
+    color: #fe4803;
+    transition-duration: 1s;
+}
+
+
+
+
+
+
+
+ .dis{
+    width: 19rem;
+}
+
+
+.info{
+    font-size:14px;
+}
+/* .........................color elements... */
+.info-txt{
+    color: rgb(158, 155, 152);
+}
+
+.bg-blacck{
+    background-color: rgba(50, 50, 50, 0.444) !important;
+}
+
+div .card-box:hover{
+    background-color: #ff4904!important;
+
+}
+.card-bg:hover {
+    background-color:#ff4904!important;
+    .info-txt{
+        color: rgb(196, 196, 196);
+        transition-duration: 1s;
+    }
+}
+
+.card-bg{
+    background-color: rgba(92, 92, 92, 0.288)!important;
+    transition-duration:1s;
+    
+}
+
+li:hover a{
+    color: #ff4904!important;
+}
+.card-title{
+    transition-duration:1s ;
+}
+.card-title:hover {
+    color: #fe4803;
+}
+.bg-chart{
+    background-color: #fe4803!important;
+}
+.btn-to{
+
+border: solid #fe4803 !important;
+transition-duration:1s;
+} 
+
+
+/* ..........animation elements.....   */
+
+.card-box{
+    transition-duration:1s;
+}
+
+
+
+
+/* ....................responsive for tablet.....   */
+
+
+
+@media screen and (min-width: 800px) {
+    
+    .img-start{
+        width: 50%;
+    }  
+    
+
+
+    .team{
+        width: 25rem !important;
+    }
+
+    .img-card{
+        width: 33%;
+    }
+  }
+
+  #test1::after {
+    content: '20%';
+    color: rgb(36, 34, 34);
+    font-weight: bold;
+  }
+  #test2::after {
+    content: '70%';
+    color: rgb(36, 34, 34);
+    font-weight: bold;
+  }
+
+  #test3::after {
+    content: '40%';
+    color: rgb(36, 34, 34);
+    font-weight: bold;
+  }
+
+  #test4::after {
+    content: '58%';
+    color: rgb(36, 34, 34);
+    font-weight: bold;
+  }
+
+  #test5::after {
+    content: '30%';
+    color: rgb(36, 34, 34);
+    font-weight: bold;
+  }
+
+  #test6::after {
+    content: '50%';
+    color: rgb(36, 34, 34);
+    font-weight: bold;
+  }
+
+ 
+  
